@@ -1,0 +1,203 @@
+*{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*-------------------------------------------------------------*/
+
+.col-3 .col-12{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-3{
+    flex: 0 0 25%;
+    max-width: 35%;
+    position: relative;
+    width: 100%;
+    
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 20px;
+}
+  .text-center{
+    text-align: center;
+  }
+.formule .section-formule .formule-details .point .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #302c2c;
+    font-size: 24px;
+    font-family: "ogg-roman";
+}
+.formule .section-formule .formule-details .point {
+    transform: translate(0%, 0%);
+}
+.point .rond-percent {
+    transform: rotate(-90deg);
+    transition: all 1s ease-in-out;
+    fill: none;
+    stroke: #91b195;
+    stroke-width: 5;
+    stroke-dasharray: 0 1000;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 5px;
+}
+
+.circle {
+    border: 1px solid #002d00;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    padding: 25px 5px;
+}
+
+.formule .section-formule .formule-details .point .rond-background {
+    stroke: #302c2c;
+    fill: none;
+    stroke-width: 1;
+    stroke-dasharray: 1000 1000;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     z-index: 1; 
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.formule.style-2 {
+    margin-top: 150px;
+    margin-bottom: 230px;
+}
+.formule.formule-cosmetique {
+    margin-top: 30px ;
+    margin-bottom: 100px ;
+}
+.formule {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #f9f8f4;
+}
+
+
+
+
+.formule.style-2.formule-cosmetique .section-formule>div {
+    padding: 25px 45px 0 0;
+}
+
+.formule.style-2 .section-formule > div {
+    height: auto !important;
+}
+.formule.style-2 .section-formule>div {
+    padding: 25px 45px 25px 0;
+    height: 328px;
+}
+
+.formule .section-formule>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.formule-details .formule-percent {
+    flex-direction: column;
+    max-width: 875px;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: "ogg-roman";
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+sup {
+    top: -0.5rem;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.formule .section-formule .formule-details.formule-percent .formule-testeur p {
+    font-size: 14px !important;
+}
+
+.formule .section-formule .formule-details.formule-percent .formule-testeur p {
+    font-size: 16px;
+}
+.formule .section-formule .formule-details.formule-percent p {
+    border: none;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: #302c2c;
+}
+
+.img-fluid, .img-responsive, img:not(.not-fluid) {
+    max-width: 75%;
+    height: auto;
+    
+}
+img {
+    
+    border-style: none;
+    margin: auto;
+}
+
+
